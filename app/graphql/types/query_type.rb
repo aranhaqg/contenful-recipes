@@ -6,7 +6,7 @@ module Types
       argument :id, String, required: true
     end
 
-    def list_recipes()
+    def list_recipes
       Recipe.all.load
     end
 

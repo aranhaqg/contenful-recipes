@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe Types::Contentful::ChefType do
+describe Types::ChefType do
   subject { described_class }
 
   it { is_expected.to have_field(:name).of_type(String) }
