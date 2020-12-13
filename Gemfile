@@ -37,7 +37,12 @@ group :development, :test do
   %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
     gem lib, git: "https://github.com/rspec/#{lib}.git", branch: 'main'
   end
+end
+
+group :test do
   gem 'rspec-graphql_matchers', '~> 1.3.0'
+  gem 'vcr', '~> 6.0.0'
+  gem 'webmock', '~> 3.9.1'
 end
 
 group :development do
