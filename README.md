@@ -1,11 +1,11 @@
 # Marley Spoon Recipes Graphql API
-[![Maintainability](https://api.codeclimate.com/v1/badges/0f46ce2dd832c2015eb5/maintainability)](https://codeclimate.com/github/aranhaqg/marley-spoon-recipes/maintainability) [![Build Status](https://travis-ci.com/aranhaqg/marley-spoon-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/marley-spoon-recipes)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop) [![Build Status](https://travis-ci.com/aranhaqg/marley-spoon-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/marley-spoon-recipes) [![SourceLevel](https://app.sourcelevel.io/github/aranhaqg/marley-spoon-recipes.svg)](https://app.sourcelevel.io/github/aranhaqg/marley-spoon-recipes)
 
 This is a GraphQL API that retrieves Marley Spoon Recipes from Contentful.
 
 This app uses:
 
-* Ruby version 2.7.1
+* Ruby version 2.5.7
 * Rails 6.0.3
 * GraphQL 1.11.6
 * Contenful Model 1.3.0

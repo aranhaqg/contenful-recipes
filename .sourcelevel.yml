@@ -1,0 +1,4 @@
+# .sourcelevel.yml
+engines:
+  rubocop:
+    enabled: true
