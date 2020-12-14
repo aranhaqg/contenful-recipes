@@ -1,5 +1,5 @@
 # Marley Spoon Recipes Graphql API
-[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop) [![Build Status](https://travis-ci.com/aranhaqg/marley-spoon-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/marley-spoon-recipes) [![SourceLevel](https://app.sourcelevel.io/github/aranhaqg/marley-spoon-recipes.svg)](https://app.sourcelevel.io/github/aranhaqg/marley-spoon-recipes)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop) [![Build Status](https://travis-ci.com/aranhaqg/marley-spoon-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/marley-spoon-recipes) [![SourceLevel](https://app.sourcelevel.io/github/aranhaqg/marley-spoon-recipes.svg)](https://app.sourcelevel.io/github/aranhaqg/marley-spoon-recipes) [![Maintainability](https://api.codeclimate.com/v1/badges/0f46ce2dd832c2015eb5/maintainability)](https://codeclimate.com/github/aranhaqg/marley-spoon-recipes/maintainability)
 
 This is a GraphQL API that retrieves Marley Spoon Recipes from Contentful.
 
@@ -9,10 +9,12 @@ This app uses:
 * Rails 6.0.3
 * GraphQL 1.11.6
 * Contenful Model 1.3.0
+* Docker
+*
 
 For more details check [Gemfile](Gemfile).
 
-This app is watched by Code Climate and Travis.
+This app is watched by SourceLevel, Code Climate and Travis.
 
 ## Contentful Models
 ### Recipe
@@ -37,3 +39,17 @@ The [Tag](/app/models/tag.rb) contentful model is composed by the following prop
 
 * recipes: array of Recipe contentful model
 * name: String
+
+## How to tun the app
+To run this project you need to have Docker and Docker Compose installed. After that just run on your terminal:
+
+```
+docker-compose up
+```
+And then visit localhost:300/graphiql
+
+## Running the tests
+
+```
+docker-compose run web bundle exec rspec
+```
