@@ -9,10 +9,12 @@ This app uses:
 * Rails 6.0.3
 * GraphQL 1.11.6
 * Contenful Model 1.3.0
+* Docker
+*
 
 For more details check [Gemfile](Gemfile).
 
-This app is watched by Code Climate and Travis.
+This app is watched by SourceLevel and Travis.
 
 ## Contentful Models
 ### Recipe
@@ -37,3 +39,17 @@ The [Tag](/app/models/tag.rb) contentful model is composed by the following prop
 
 * recipes: array of Recipe contentful model
 * name: String
+
+## How to tun the app
+To run this project you need to have Docker and Docker Compose installed. After that just run on your terminal:
+
+```
+docker-compose up
+```
+And then visit localhost:300/graphiql
+
+## Running the tests
+
+```
+docker-compose run web bundle exec rspec
+```
