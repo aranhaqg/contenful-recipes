@@ -13,7 +13,6 @@ This app uses:
 * GraphQL 1.11.6
 * Contenful Model 1.3.0
 * Docker
-*
 
 For more details check [Gemfile](Gemfile).
 
