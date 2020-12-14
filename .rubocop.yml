@@ -1,2 +1,5 @@
+AllCops:
+  Exclude:
+    - 'app/controllers/graphql_controller.rb'
 Style/Documentation:
   Enabled: false

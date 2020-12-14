@@ -3,6 +3,6 @@ engines:
   rubocop:
     enabled: true
 exclude_paths:
-- lib
-- config
-- spec
+- lib/*
+- config/*
+- spec/*
