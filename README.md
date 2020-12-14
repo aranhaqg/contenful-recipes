@@ -1,24 +1,39 @@
-# README
-[![Maintainability](https://api.codeclimate.com/v1/badges/0f46ce2dd832c2015eb5/maintainability)](https://codeclimate.com/github/aranhaqg/marley-spoon-recipes/maintainability) [![Build Status](https://travis-ci.com/aranhaqg/marley-spoon-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/marley-spoon-recipes)
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Marley Spoon Recipes Graphql API
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop) [![Build Status](https://travis-ci.com/aranhaqg/marley-spoon-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/marley-spoon-recipes) [![SourceLevel](https://app.sourcelevel.io/github/aranhaqg/marley-spoon-recipes.svg)](https://app.sourcelevel.io/github/aranhaqg/marley-spoon-recipes)
 
-Things you may want to cover:
+This is a GraphQL API that retrieves Marley Spoon Recipes from Contentful.
 
-* Ruby version
+This app uses:
 
-* System dependencies
+* Ruby version 2.5.7
+* Rails 6.0.3
+* GraphQL 1.11.6
+* Contenful Model 1.3.0
 
-* Configuration
+For more details check [Gemfile](Gemfile).
 
-* Database creation
+This app is watched by Code Climate and Travis.
 
-* Database initialization
+## Contentful Models
+### Recipe
 
-* How to run the test suite
+The [Recipe](/app/models/recipe.rb) contentful model is composed by the following properties:
 
-* Services (job queues, cache servers, search engines, etc.)
+* id: Integer
+* title: String
+* photo_url: String
+* description: String
+* chef: Chef contentful model
+* tags: array of Tag contentful model
 
-* Deployment instructions
+### Chef
+The [Chef](/app/models/chef.rb) contentful model is composed by the following properties:
 
-* ...
+* recipes: array of Recipe contentful model
+* name: String
+
+### Tag
+The [Tag](/app/models/tag.rb) contentful model is composed by the following properties:
+
+* recipes: array of Recipe contentful model
+* name: String
