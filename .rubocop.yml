@@ -1,5 +1,11 @@
 AllCops:
   Exclude:
     - 'app/controllers/graphql_controller.rb'
+    - 'node_modules/**/*'
+    - 'bin/*'
+    - 'vendor/**/*'
+  NewCops: enable
 Style/Documentation:
+  Enabled: false
+Style/SingleArgumentDig:
   Enabled: false
