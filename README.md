@@ -55,3 +55,9 @@ And then visit localhost:300/graphiql
 ```
 docker-compose run web bundle exec rspec
 ```
+## Future Improvements
+
+* Add pagination do the list of recipes.
+* Add a Web UI to the app.
+* Improve security with Rack Attack to protect from bad clients. Can be used to prevent brute-force passwords attacks, scrapers and throttling requests from IP addresses for example.
+* Scan code to look for security vulnerabilities with Brakeman. 
