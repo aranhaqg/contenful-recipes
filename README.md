@@ -1,4 +1,4 @@
-# Contenful Recipes Graphql API
+# Contentful Recipes Graphql API
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop) 
 [![Build Status](https://travis-ci.com/aranhaqg/contentful-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/contentful-recipes) 
 [![SourceLevel](https://app.sourcelevel.io/github/aranhaqg/-/contentful-recipes.svg)](https://app.sourcelevel.io/github/aranhaqg/-/contentful-recipes) 
