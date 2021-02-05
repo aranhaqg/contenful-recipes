@@ -1,8 +1,8 @@
 # Contentful Recipes Graphql API
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop) 
-[![Build Status](https://travis-ci.com/aranhaqg/contentful-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/contentful-recipes) 
-[![SourceLevel](https://app.sourcelevel.io/github/aranhaqg/-/contentful-recipes.svg)](https://app.sourcelevel.io/github/aranhaqg/-/contentful-recipes) 
-[![Maintainability](https://api.codeclimate.com/v1/badges/0f46ce2dd832c2015eb5/maintainability)](https://codeclimate.com/github/aranhaqg/contentful-recipes/maintainability)
+[![Build Status](https://travis-ci.com/aranhaqg/marley-spoon-recipes.svg?branch=main)](https://travis-ci.com/aranhaqg/contentful-recipes) 
+[![SourceLevel](https://app.sourcelevel.io/github/aranhaqg/-/marley-spoon-recipes.svg)](https://app.sourcelevel.io/github/aranhaqg/-/contentful-recipes) 
+[![Maintainability](https://api.codeclimate.com/v1/badges/0f46ce2dd832c2015eb5/maintainability)](https://codeclimate.com/github/aranhaqg/marley-spoon-recipes/maintainability)
 
 This is a GraphQL API that retrieves recipes from Contentful.
 
