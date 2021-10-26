@@ -7,7 +7,7 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 RUN apt-get update -qq && apt-get install -y nodejs yarn
 
 # PROJECT
-ENV DIR /marley-spoon-recipes
+ENV DIR /contentful-recipes
 RUN mkdir ${DIR}
 COPY . ${DIR}
 
